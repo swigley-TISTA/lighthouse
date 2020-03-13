@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 357771246612.dkr.ecr.us-east-2.amazonaws.com/jenkinsxio/lighthouse
+  tag: 0.0.490
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
